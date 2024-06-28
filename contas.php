@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <?ph
+        <?php
         //radio button
         echo "<b>seu sistema operacional é: </b>" . $_POST["sistema"] . "<br><br>";
         //Checkbox
@@ -18,11 +18,11 @@
         }
         else
         {
-            echo "<b>voce nao escolheu numero preferido!</b><br><br>"
+            echo "<b>voce nao escolheu numero preferido!</b><br><br>";
         }
         // 
         echo "<b>seu processadpr é: </b>" . $_POST["processador"] . "<BR>";
 
-        p?>
+        ?>
     </body>
 </html>

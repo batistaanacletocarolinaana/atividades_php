@@ -6,7 +6,7 @@
 
         <?php
          $contador= 1;
-         whilw ($contador <=5){
+         while ($contador <=5){
             echo "contagem $contador <br>";
             $contador++;
          }
@@ -16,7 +16,7 @@
 
         <?php
          $num = 0;
-         whilw($num <10 ) {
+         while($num <10 ) {
             echo $num++;
          }
 
@@ -28,7 +28,7 @@
         <?php
          $contador = 1 ;
          do{
-            echo contador esta em :$contador<br>;
+            echo "contador esta em:$contador<br>;
             $contador++
          } while ($contador<=5);
         ?>

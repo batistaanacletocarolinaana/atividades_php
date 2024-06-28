@@ -2,8 +2,8 @@
 <html>
     <body>
         <?php
-        $idade = 21;
-        $idantidade = true ;
+            $idade = 21;
+            $identidade = true ;
         
         if ($idade > 18 && $identidade == true ){
           echo 'seja bem-vindo!';
